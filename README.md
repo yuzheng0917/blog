@@ -1,1 +1,11 @@
-# blog
+---
+description: 分享前后端相关文章，记录日常遐想片段。
+---
+
+# 羽徵的日常博客记录
+
+## 系列文章
+
+[Delete `␍`eslint(prettier/prettier) 错误的解决方案](https://github.com/yuzheng0917/blog/eslint/delete-cr)
+
+[基于 React Hook 实现图片的裁剪](https://github.com/yuzheng0917/blog/canvas/picture-cropping)
