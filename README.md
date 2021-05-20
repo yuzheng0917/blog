@@ -6,6 +6,6 @@ description: 分享前后端相关文章，记录日常遐想片段。
 
 ## 系列文章
 
-[Delete `␍`eslint(prettier/prettier) 错误的解决方案](https://github.com/yuzheng0917/blog/eslint/delete-cr)
+[Delete `␍`eslint(prettier/prettier) 错误的解决方案](https://github.com/yuzheng0917/blog/blob/main/eslint/delete-cr.md)
 
-[基于 React Hook 实现图片的裁剪](https://github.com/yuzheng0917/blog/canvas/picture-cropping)
+[基于 React Hook 实现图片的裁剪](https://github.com/yuzheng0917/blog/blob/main/canvas/picture-cropping.md)
