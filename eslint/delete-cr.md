@@ -6,7 +6,7 @@
 Delete `␍`eslint(prettier/prettier)
 ```
 
-![](https://user-gold-cdn.xitu.io/2020/2/21/17066b6e1a746ada?w=1464&h=958&f=png&s=179320)
+![](./images/eslint1.awebp)
 
 下面是几种个人尝试过的解决方案：
 
@@ -16,7 +16,7 @@ Delete `␍`eslint(prettier/prettier)
 
 按`Crtl+S`保存当前报错文件，`eslint`错误消失，但是`Git`暂存区多了个文件改动记录，对比`Working tree`没发现任何不同。
 
-![](https://user-gold-cdn.xitu.io/2020/2/21/17066b8160fa5fef?w=1465&h=748&f=png&s=157207)
+![](./images/eslint1.awebp)
 
 缺点：你不可能一一保存所有文件，麻烦，还要`commit`，多余。
 
@@ -40,7 +40,15 @@ Delete `␍`eslint(prettier/prettier)
 
 [参考资料：Why do I keep getting Delete ‘cr’ \[prettier/prettier\]?](https://stackoverflow.com/questions/53516594/why-do-i-keep-getting-delete-cr-prettier-prettier)
 
-#### 四、最佳方案
+#### 四、通过IDE一键切换
+
+![](./images/eslint3.awebp)
+
+这是评论区同道提供的方法，一般IDE下方状态栏会提供“切换行尾序列”的工具，如上图，一键切换到正确的行尾序列即可。
+
+缺点：只能修复当前文件，不能解决整个项目报错的问题。
+
+#### 五、最佳方案
 
 **问题根源:**
 
