@@ -16,7 +16,7 @@ Delete `␍`eslint(prettier/prettier)
 
 按`Crtl+S`保存当前报错文件，`eslint`错误消失，但是`Git`暂存区多了个文件改动记录，对比`Working tree`没发现任何不同。
 
-![](./images/eslint1.awebp)
+![](./images/eslint2.awebp)
 
 缺点：你不可能一一保存所有文件，麻烦，还要`commit`，多余。
 
