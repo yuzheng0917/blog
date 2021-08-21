@@ -8,11 +8,11 @@
 
 单个裁剪
 
-![](https://user-gold-cdn.xitu.io/2020/4/7/17152cf4492c2fb6?w=800&h=356&f=png&s=387084)
+![](./images/canvas1.awebp)
 
 批量裁剪
 
-![](https://user-gold-cdn.xitu.io/2020/4/7/17152cf7f600f276?w=800&h=458&f=png&s=540250)
+![](./images/canvas2.awebp)
 
 ### Canvas 技术点
 
@@ -40,7 +40,7 @@
     3.  使用`Canvas.toDataURL()`输出图片
     4.  使用`OCR`识别图片信息
 
-![](https://user-gold-cdn.xitu.io/2020/4/7/17153384dc713a5e?w=576&h=429&f=png&s=18300)
+![](./images/canvas3.awebp)
 
 ### 一、读取图片
 
@@ -103,7 +103,7 @@ export default function ({ file, useOcr, onTransform }) {
 
 #### 2.1 `drawImage()`的使用
 
-![](https://user-gold-cdn.xitu.io/2020/4/7/17153396bb76c3b0?w=360&h=360&f=png&s=19674)
+![](./images/canvas4.awebp)
 
 ##### 语法
 
@@ -292,7 +292,7 @@ return (
 
 实现流程如下：
 
-![](https://user-gold-cdn.xitu.io/2020/4/7/171533a4991c6465?w=883&h=589&f=png&s=454908)
+![](./images/canvas5.awebp)
 
 **⚠️ 注意： `canvas`是基于状态的，`save()`和`restore()`需要成对使用**
 
@@ -431,7 +431,7 @@ const drawBorderPixel = (ctx, x, y, w, h) => {
 
 很简单，分别得到多个裁剪框的最小`startX`、`startY`值和最大`endX`、`endY`值，即可计算出最小矩形的开始坐标和宽高。
 
-![](https://user-gold-cdn.xitu.io/2020/4/7/171533aa3d541505?w=916&h=866&f=png&s=910770)
+![](./images/canvas6.awebp)
 
 代码实现如下：
 
