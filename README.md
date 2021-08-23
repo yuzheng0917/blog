@@ -2,7 +2,7 @@
 
   记录日常所学、所思、所行。以更通俗易懂的语言分析技术问题。
 
-## 系列文章
+### 系列文章
 
 [Delete `␍`eslint(prettier/prettier) 错误的解决方案](./eslint/delete-cr.md)
 
