@@ -15,6 +15,27 @@ module.exports = {
   module: {
     rules: [
       // 详细的loader配置
+      {
+        // 匹配哪些文件
+        test: /\.css$/,
+        // 使用哪些loader处理
+        use: [
+          // loader执行顺序：从右到左，从下到上依次执行
+          // 创建style标签，将js中的样式资源插入到style标签内，然后添加到html head中
+          'style-loader',
+          // 将css文件转换成样式字符串，变成commonjs模块，并整合到js文件中
+          'css-loader'
+        ]
+      },
+      {
+        test: /\.less$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          // 将 less 文件编译成 css 文件，需要下载less less-loader
+          'less-loader'
+        ]
+      }
     ]
   },
   // plugins配置
